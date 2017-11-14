@@ -1,0 +1,23 @@
+[root]
+name = "toml_reader"
+version = "0.1.0"
+dependencies = [
+ "toml 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "serde"
+version = "1.0.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "toml"
+version = "0.4.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "serde 1.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum serde 1.0.20 (registry+https://github.com/rust-lang/crates.io-index)" = "5a2b181dd2b4a6353e828e44807269a761d3ecbc388a1f5ed3998ea69a516d9c"
+"checksum toml 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)" = "a7540f4ffc193e0d3c94121edb19b055670d369f77d5804db11ae053a45b6e7e"

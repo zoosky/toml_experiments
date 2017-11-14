@@ -1,0 +1,7 @@
+[package]
+name = "toml_reader"
+version = "0.1.0"
+authors = ["zoosky <zoosky@gmail.com>"]
+
+[dependencies]
+toml = "0.4"
